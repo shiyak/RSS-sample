@@ -12,17 +12,15 @@
 		AA7BFB6F170D1ED200B88942 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7BFB6E170D1ED200B88942 /* CoreGraphics.framework */; };
 		AA7BFB75170D1ED200B88942 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA7BFB73170D1ED200B88942 /* InfoPlist.strings */; };
 		AA7BFB77170D1ED200B88942 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7BFB76170D1ED200B88942 /* main.m */; };
-		AA7BFB7B170D1ED200B88942 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7BFB7A170D1ED200B88942 /* AppDelegate.m */; };
 		AA7BFB7D170D1ED200B88942 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AA7BFB7C170D1ED200B88942 /* Default.png */; };
 		AA7BFB7F170D1ED200B88942 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA7BFB7E170D1ED200B88942 /* Default@2x.png */; };
 		AA7BFB81170D1ED200B88942 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA7BFB80170D1ED200B88942 /* Default-568h@2x.png */; };
-		AA7BFB84170D1ED200B88942 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7BFB83170D1ED200B88942 /* ViewController.m */; };
-		AA7BFB87170D1ED200B88942 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA7BFB85170D1ED200B88942 /* ViewController.xib */; };
 		AA7BFB8F170D1ED200B88942 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7BFB8E170D1ED200B88942 /* SenTestingKit.framework */; };
 		AA7BFB90170D1ED200B88942 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7BFB6A170D1ED200B88942 /* UIKit.framework */; };
 		AA7BFB91170D1ED200B88942 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7BFB6C170D1ED200B88942 /* Foundation.framework */; };
 		AA7BFB99170D1ED200B88942 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA7BFB97170D1ED200B88942 /* InfoPlist.strings */; };
 		AA7BFB9C170D1ED200B88942 /* RSS_sampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7BFB9B170D1ED200B88942 /* RSS_sampleTests.m */; };
+		AA7BFBA7170D5B5500B88942 /* RSSAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7BFBA6170D5B5500B88942 /* RSSAppController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,20 +42,17 @@
 		AA7BFB74170D1ED200B88942 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA7BFB76170D1ED200B88942 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA7BFB78170D1ED200B88942 /* RSS-sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSS-sample-Prefix.pch"; sourceTree = "<group>"; };
-		AA7BFB79170D1ED200B88942 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AA7BFB7A170D1ED200B88942 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AA7BFB7C170D1ED200B88942 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		AA7BFB7E170D1ED200B88942 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		AA7BFB80170D1ED200B88942 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		AA7BFB82170D1ED200B88942 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AA7BFB83170D1ED200B88942 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AA7BFB86170D1ED200B88942 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		AA7BFB8D170D1ED200B88942 /* RSS-sampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RSS-sampleTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7BFB8E170D1ED200B88942 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		AA7BFB96170D1ED200B88942 /* RSS-sampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSS-sampleTests-Info.plist"; sourceTree = "<group>"; };
 		AA7BFB98170D1ED200B88942 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA7BFB9A170D1ED200B88942 /* RSS_sampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSS_sampleTests.h; sourceTree = "<group>"; };
 		AA7BFB9B170D1ED200B88942 /* RSS_sampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSS_sampleTests.m; sourceTree = "<group>"; };
+		AA7BFBA5170D5B5500B88942 /* RSSAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSAppController.h; sourceTree = "<group>"; };
+		AA7BFBA6170D5B5500B88942 /* RSSAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSAppController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,12 +112,9 @@
 		AA7BFB70170D1ED200B88942 /* RSS-sample */ = {
 			isa = PBXGroup;
 			children = (
-				AA7BFB79170D1ED200B88942 /* AppDelegate.h */,
-				AA7BFB7A170D1ED200B88942 /* AppDelegate.m */,
-				AA7BFB82170D1ED200B88942 /* ViewController.h */,
-				AA7BFB83170D1ED200B88942 /* ViewController.m */,
-				AA7BFB85170D1ED200B88942 /* ViewController.xib */,
 				AA7BFB71170D1ED200B88942 /* Supporting Files */,
+				AA7BFBA5170D5B5500B88942 /* RSSAppController.h */,
+				AA7BFBA6170D5B5500B88942 /* RSSAppController.m */,
 			);
 			path = "RSS-sample";
 			sourceTree = "<group>";
@@ -235,7 +227,6 @@
 				AA7BFB7D170D1ED200B88942 /* Default.png in Resources */,
 				AA7BFB7F170D1ED200B88942 /* Default@2x.png in Resources */,
 				AA7BFB81170D1ED200B88942 /* Default-568h@2x.png in Resources */,
-				AA7BFB87170D1ED200B88942 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA7BFB77170D1ED200B88942 /* main.m in Sources */,
-				AA7BFB7B170D1ED200B88942 /* AppDelegate.m in Sources */,
-				AA7BFB84170D1ED200B88942 /* ViewController.m in Sources */,
+				AA7BFBA7170D5B5500B88942 /* RSSAppController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +291,6 @@
 				AA7BFB74170D1ED200B88942 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		AA7BFB85170D1ED200B88942 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AA7BFB86170D1ED200B88942 /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 		AA7BFB97170D1ED200B88942 /* InfoPlist.strings */ = {
