@@ -21,6 +21,7 @@
 		AA7BFB99170D1ED200B88942 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA7BFB97170D1ED200B88942 /* InfoPlist.strings */; };
 		AA7BFB9C170D1ED200B88942 /* RSS_sampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7BFB9B170D1ED200B88942 /* RSS_sampleTests.m */; };
 		AA7BFBA7170D5B5500B88942 /* RSSAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7BFBA6170D5B5500B88942 /* RSSAppController.m */; };
+		AA7BFBF1170D808000B88942 /* RSS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA7BFBEF170D808000B88942 /* RSS.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		AA7BFB9B170D1ED200B88942 /* RSS_sampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSS_sampleTests.m; sourceTree = "<group>"; };
 		AA7BFBA5170D5B5500B88942 /* RSSAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSAppController.h; sourceTree = "<group>"; };
 		AA7BFBA6170D5B5500B88942 /* RSSAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSAppController.m; sourceTree = "<group>"; };
+		AA7BFBF0170D808000B88942 /* RSS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RSS.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				AA7BFB71170D1ED200B88942 /* Supporting Files */,
 				AA7BFBA5170D5B5500B88942 /* RSSAppController.h */,
 				AA7BFBA6170D5B5500B88942 /* RSSAppController.m */,
+				AA7BFBEF170D808000B88942 /* RSS.xcdatamodeld */,
 			);
 			path = "RSS-sample";
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			files = (
 				AA7BFB77170D1ED200B88942 /* main.m in Sources */,
 				AA7BFBA7170D5B5500B88942 /* RSSAppController.m in Sources */,
+				AA7BFBF1170D808000B88942 /* RSS.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +439,7 @@
 				AA7BFBA1170D1ED200B88942 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA7BFBA2170D1ED200B88942 /* Build configuration list for PBXNativeTarget "RSS-sampleTests" */ = {
 			isa = XCConfigurationList;
@@ -443,8 +448,22 @@
 				AA7BFBA4170D1ED200B88942 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA7BFBEF170D808000B88942 /* RSS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA7BFBF0170D808000B88942 /* RSS.xcdatamodel */,
+			);
+			currentVersion = AA7BFBF0170D808000B88942 /* RSS.xcdatamodel */;
+			path = RSS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AA7BFB5F170D1ED200B88942 /* Project object */;
 }
